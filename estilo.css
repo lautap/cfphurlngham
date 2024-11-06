@@ -1,0 +1,102 @@
+
+  canvas#canvas {
+    z-index: -1;
+    position: absolute;
+    width: 70vw;
+    height: 60vh;
+    transform: rotate(0deg) scale(2) translateY(-46%);
+    --gradient-color-1: #853364; 
+    --gradient-color-2: #3C657C; 
+    --gradient-color-3: #4E3788;  
+    --gradient-color-4: #3A9252;
+    --gradient-speed: 0.000030; 
+  }
+  body{
+    background-color: #4D4A4A;
+  }
+.logoh{
+    width: 100px;
+    position: fixed;
+    bottom: 60px;
+    z-index: 1;
+
+}
+.action {
+  padding: 10px 20px;
+  text-transform: uppercase;
+  border-radius: 8px;
+  font-size: 17px;
+  font-weight: 500;
+  color: #ffffffe1;
+  text-shadow: none;
+  background: transparent;
+  cursor: pointer;
+  box-shadow: transparent;
+  border: 1px solid #ffffffe1;
+  transition: 0.5s ease;
+  user-select: none;
+}
+
+.action:hover,
+:focus {
+  color: #ffffff;
+  background: #008cff;
+  border: 1px solid #008cff;
+  text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+  box-shadow: 0 0 5px #008cff, 0 0 20px #008cff, 0 0 50px #008cff,
+    0 0 100px #008cff;
+}
+
+.action2 {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    border-radius: 8px;
+    font-size: 17px;
+    font-weight: 500;
+    color: #ffffffe1;
+    text-shadow: none;
+    background: transparent;
+    cursor: pointer;
+    box-shadow: transparent;
+    border: 1px solid #ffffffe1;
+    transition: 0.5s ease;
+    user-select: none;
+  }
+  
+  .action2:hover,
+  :focus {
+    color: #ffffff;
+    background: #008cff;
+    border: 1px solid #008cff;
+    text-shadow: 0 0 5px #ffffff, 0 0 10px #ffffff, 0 0 20px #ffffff;
+    box-shadow: 0 0 2px #008cff, 0 0 5px #008cff, 0 0 10px #008cff,
+      0 0 20px #008cff;
+  }
+.vs:hover, .html:hover, .css:hover, .boots:hover, .js:hover{
+    text-shadow: 0 0 10px #ffffff, 0 0 15px #ffffff, 0 0 25px #ffffff;
+    
+}
+.vs{
+    color: #4a90ff;
+    font-size: 30px;
+    
+}
+.html{
+    color: #71f307;
+    font-size: 30px;
+}   
+
+.css{
+    color: #1af7da;
+    font-size: 30px;
+}
+.boots{
+    color: #e007f8;
+    font-size: 30px;
+  
+}
+
+.js{
+    color: #f8cc07;
+    font-size: 30px;
+}
